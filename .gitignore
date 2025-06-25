@@ -2,5 +2,5 @@
 target/
 dbt_packages/
 logs/
-projeto_um/profiles.yml
-projeto_um/.user.yml
+profiles.yml
+.user.yml
