@@ -1,15 +1,11 @@
-Welcome to your new dbt project!
+# Projeto DBT - projeto_um
 
-### Using the starter project
+Este repositório contém o projeto DBT chamado **projeto_um**, que organiza e transforma dados de uma loja de e-commerce utilizando o BigQuery como data warehouse.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Estrutura principal
+- Modelos organizados em camadas: staging, intermediate e marts
+- Seeds com dados de referência em CSV
+- Configuração de conexão via profiles.yml para BigQuery
+- Dependências listadas em requeriments.txt
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Para mais detalhes, consulte a documentação completa em `models/overview.md` ou acesse a [documentação oficial do DBT](https://docs.getdbt.com/). 
